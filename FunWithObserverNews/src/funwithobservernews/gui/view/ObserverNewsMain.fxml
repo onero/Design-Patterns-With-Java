@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="funwithobservernews.gui.controller.ObserverNewsMainController">
+   <center>
+      <Pane prefHeight="387.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="200.0" layoutY="115.0" text="Add news!">
+               <font>
+                  <Font name="System Bold" size="32.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtNews" layoutX="138.0" layoutY="200.0" prefHeight="31.0" prefWidth="298.0" />
+            <JFXButton defaultButton="true" layoutX="253.0" layoutY="263.0" onAction="#handleAddNews" style="-fx-background-color: green;" text="ADD" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
